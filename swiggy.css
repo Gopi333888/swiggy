@@ -1,0 +1,595 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    width: 100%;
+    height: 600px;
+}
+
+.first{
+    width: 60%;
+    height: 600px;
+    float: left;
+    
+}
+.second{
+    width: 40%;
+    height: 600px;
+    float: left;
+}
+.Food-img{
+    width: 607px;
+    height: 600px;
+}
+.swiggy{
+    width: 400px;
+    height: 100px;
+
+}
+.swigg-img{
+    width: 200px;
+   height: 200px;
+  margin-left: 150px;
+
+ 
+}
+.sw-img{
+    width: 200px;
+    height: 100px;
+}
+.btns{
+    padding-left: 550px;
+    margin-top: -123px;
+   
+ 
+   
+}
+.Login{
+    color: black;
+    background-color: white;
+    border: none;
+    width: 29px;
+    height: 40px;
+    font-family: "ProximaNova", arial, "Helvetica Neue", sans-serif;
+   font-weight: 700;
+   font-size: 16px;
+   margin-right: 20px;
+
+}
+.Login:hover{
+    color: #fc8019;
+}
+.sign{
+    color: white;
+    background-color:black;
+    width: 111px;
+    height: 40px;
+    margin-left: 20px;
+    font-family: "ProximaNova", arial, "Helvetica Neue", sans-serif;
+    font-size: 16px;
+  font-weight: 700;
+   
+}
+.btn{
+  margin-left: 200px;
+ 
+}
+.third{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+.Cooking{
+    margin-left: -120px;
+    padding-bottom: 10px;
+    font-size: 38px;
+    font-family: "ProximaNova", arial, "Helvetica Neue", "sans-";
+}
+.Order{
+    font-family: "ProximaNova", arial, "Helvetica Neue", "sans-";
+    font-size: 25px;
+    font-weight: 100;
+    margin-left: -19px;
+}
+.Enter-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   margin-top: 40px;
+   margin-left: 90px;
+    
+}
+.Delivary-text{
+    width: 500px;
+    height: 59px;
+    font-family: "ProximaNova", arial, "Helvetica Neue", "sans-";
+    font-weight: 700;
+    font-size: 17px;
+    padding-left: 14px;
+}
+.Find-btn{
+    width: 140px;
+    color: white;
+    height: 60px;
+    font-family: "ProximaNova", arial, "Helvetica Neue", "sans-";
+    background-color: #fc8019;
+    border: none;
+    font-weight: 1000;
+}
+.Popular{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+.Cities{
+    margin-left: -370px;
+    font-family: "ProximaNova", arial, "Helvetica Neue", "sans-";
+    margin-top: -20px;
+    margin-bottom: 20px;
+    font-size: 14px;
+    color: gray;
+   
+
+}
+.ban{
+    font-family: "ProximaNova", arial, "Helvetica Neue", "sans-";
+    width: 620px;
+    height: 18px;
+    margin-top: px;
+    margin-left: 70px;
+    font-size: 16px;
+    color: gray;   
+}
+.header1{
+    width: 100%;
+    height: 400px;
+    background:
+    #2b1e16;
+    
+}
+.no-img{
+    width: 33%;
+    height: 400px;
+    float: left;
+}
+.A{
+    width:33%;
+    height: 400px;
+    float: left;
+}
+.minimum{
+    display: flex;
+    align-items: start;
+    width: 120px;
+    height: 220px;
+    margin-left: 237px;
+    padding-top: 9px;
+}
+.No{
+    color: white;
+    font-family: "ProximaNova", arial, "Helvetica Neue", "sans-";
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 19px;
+    width: 260px;
+    height: 24px;
+margin-left: 160px;
+padding-top: 45px;
+
+}
+.yourself{
+    font-family: "ProximaNova", arial, "Helvetica Neue", "sans-";
+ color: #e0cbc1;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ padding-top: 25px;
+ margin-left: 100px;
+ font-weight: 500;
+ font-size: 17px;
+ 
+}
+.Home{
+    display: flex;
+    align-items: start;
+    width: 120px;
+    height: 220px;
+    margin-left: 237px;
+    padding-top: 9px;
+
+}
+.Live{
+color: white;
+        font-family: "ProximaNova", arial, "Helvetica Neue", "sans-";
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 19px;
+    width: 260px;
+    height: 24px;
+margin-left: 160px;
+padding-top: 45px;
+   
+}
+.know{
+    font-family: "ProximaNova", arial, "Helvetica Neue", "sans-";
+    color: #e0cbc1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 25px;
+    margin-left: 100px;
+    font-weight: 500;
+    font-size: 17px;
+    
+
+}
+.B{
+    width:33%;
+    height: 400px;
+    float: left;
+}
+.Bike{
+    display: flex;
+    align-items: start;
+    width: 120px;
+    height: 220px;
+    margin-left: 237px;
+    padding-top: 9px;
+
+}
+.Fast{
+    color: white;
+        font-family: "ProximaNova", arial, "Helvetica Neue", "sans-";
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 19px;
+    width: 260px;
+    height: 24px;
+margin-left: 160px;
+padding-top: 45px;
+   
+   
+
+}
+.Experience{
+     font-family: "ProximaNova", arial, "Helvetica Neue", "sans-";
+    color: #e0cbc1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 25px;
+    margin-left: 100px;
+    font-weight: 500;
+    font-size: 17px;
+}
+.header2{
+        width: 100%;
+        height: 600px;
+}
+.Restaurants{
+    width: 40%;
+    height: 600px;
+    float: left; 
+}
+.pocket{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 150px;
+    font-family: "ProximaNova", arial, "Helvetica Neue", "sans-";
+    margin-left: 0  px;
+    font-size: 40px;
+    color: #282c3f;
+}
+.favorite{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "ProximaNova", arial, "Helvetica Neue", "sans-";
+    padding-top: 20px;
+    margin-left: 110px;
+    color: #7e808c;
+    font-weight: 200;
+    font-size: 20px;
+
+
+}
+.playstore-apple{
+    display: flex;
+    flex-direction: row;
+    margin-left: 170px;
+    padding-top: 60px;
+}
+.playstore{
+    width: 180px;
+    height: 55px;
+
+}
+.applestore{
+    width: 200px;
+    height: 55px;
+    padding-left: 20px;
+}
+.phone1{
+    float: left;
+    width: 30%;
+    height: 600px;
+
+}
+.phn1{
+    width: 480px;
+    height: 500px;
+    padding-left: 90px;
+}
+.phone2{
+    width: 30%;
+    height: 600px;
+    float: left;
+    
+}
+.phn2{
+    width: 420px;
+    height: 500px;
+   margin-top: 100px;
+
+
+}
+.header3{
+    width: 100%;
+    height: 650px;
+    background: black;
+}
+.company{
+    color:white;
+    width: 25%;
+    height: 600px;
+    float: left;
+  
+}
+.comp{
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    margin-top: 76px;
+    width: 300px;
+    height: 14px;
+    font-size: 17px;
+    font-family: "ProximaNova", arial, "Helvetica Neue", "sans-";
+    color: #808080;
+    font-weight: 550;
+    margin-left: 30px;
+    
+}
+.about-as{
+    margin-top: 24px ;
+    margin-left: 40px;
+
+}
+.About{
+    font-family: "ProximaNova", arial, "Helvetica Neue", "sans-";
+color: white;
+       padding-left: 110px; 
+       padding-top: 16px;
+       padding-bottom: 7px;
+       font-size: 17px;
+       font-weight: 400;
+      }
+      .Contact{
+        width: 25%;
+        height: 600px;
+        float: left;
+      }
+      .Con{
+        display: flex;
+        align-items: start;
+        justify-content: center;
+        margin-top: 76px;
+        width: 300px;
+        height: 14px;
+        font-size: 17px;
+        font-family: "ProximaNova", arial, "Helvetica Neue", "sans-";
+        color: #808080;
+        font-weight: 550;
+        margin-left: 1px;
+        }
+        .Support{
+            margin-top: 24px ;
+            margin-left: 40px;
+         }
+        .Help{
+                font-family: "ProximaNova", arial, "Helvetica Neue", "sans-";
+                   color: white;
+                   padding-left: 70px; 
+                   padding-top: 16px;
+                   padding-bottom: 7px;
+                   font-size: 17px;
+                   font-weight: 400;
+                 }
+                 .Legal{
+                    width: 30%;
+                    height: 600px;
+                    float: left;
+
+                 }
+                 .Leg{
+                    display: flex;
+                    align-items: start;
+                    justify-content: center;
+                    margin-top: 76px;
+                    width: 300px;
+                    height: 14px;
+                    font-size: 17px;
+                    font-family: "ProximaNova", arial, "Helvetica Neue", "sans-";
+                    color: #808080;
+                    font-weight: 550;
+                    margin-left: -42px;
+                 }
+                 .Terms{
+                    margin-top: 24px ;
+                    margin-left: -30px;
+                }
+                 .conditions-text{
+                font-family: "ProximaNova", arial, "Helvetica Neue", "sans-";
+                   color: white;
+                   padding-left: 110px; 
+                   padding-top: 16px;
+                   padding-bottom: 7px;
+                   font-size: 17px;
+                   font-weight: 400;
+                }
+                .palys{
+                    width: 20%;
+                    height: 600px;
+                    float: left;
+
+                }
+                .playstore-app{
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    padding-top: 100px;
+
+                }
+                .ply-store{
+                    width: 200px;
+                    height: 65px;
+                    border-radius: 10px;
+                    border: white solid 1px;
+                  margin-bottom: 30px;
+                   
+                }
+                .app-store{
+                    width: 200px;
+                    height: 65px;
+                    border-radius: 10px;
+                    border: white solid 1px;
+                 }
+
+                 .header4{
+                    width: 100%;
+                    height: 250px;
+                    background: black;
+                 }
+                 hr{
+                    margin-left: 140px;
+                 }
+                 .Explore{
+                    width: 50%;
+                    height: 100px;
+                    float: left;
+                 }
+                 .Expo{
+                    font-size: 15px;
+                    line-height: 18px;
+                    color: #808080;
+                    font-family: "ProximaNova", arial, "Helvetica Neue", sans-serif;
+                    margin-left: 160px;
+                    
+                 }
+                 .near-me{
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    color: white;
+                    font-size: 18px;
+                    line-height: 20.4px ;
+                    margin-top: 25px;
+                    margin-left: -200px;
+                    font-weight: 500;
+                    font-family: "ProximaNova", arial, "Helvetica Neue", sans-serif;
+                 }
+                 .Top{
+                    width: 50%;
+                    height: 100px;
+                    float: left;
+                 }
+                 .top{
+                       
+                        display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    color: white;
+                    font-size: 18px;
+                    line-height: 20.4px ;
+                    margin-top: 25px;
+                   margin-right: -45px;
+                    font-weight: 500;
+                    font-family: "ProximaNova", arial, "Helvetica Neue", sans-serif;
+
+                 }
+                 .Swig{
+                    width: 33%;
+                    height: 150px;
+                    float: left;
+                }
+                .Swig-img{
+                    width: 180px;
+                    height: 60px;
+                    margin-left: 150px;
+                    margin-top: 45px;
+                }
+                .s-2023{
+                    width: 33%;
+                    height: 150px;
+                    float: left;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    font-size: 25px;
+                }
+                .Sw{
+                    color: white;
+                    font-family: "ProximaNova", arial, "Helvetica Neue", sans-serif;
+                    font-weight: 500;
+                }
+                .icons{
+                    width: 33%;
+                    height: 150px;
+                    float: left;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    font-size: 25px;
+                }
+                .facebook{
+                    width: 39px;
+                    height: 30px;
+                    padding-left: 20px;
+                 }
+                .P{
+                    width: 39px;
+                    height: 30px;
+                    padding-left: 20px;
+                 }
+                .instagram{
+                    width: 39px;
+                    height: 30px;
+                    padding-left: 20px;
+                 }
+                .twitter{
+                    width: 39px;
+                    height: 30px;
+                    padding-left: 20px;
+
+                }
+
+                
+
+
+                 
+                
+
+
+
+
+
+
